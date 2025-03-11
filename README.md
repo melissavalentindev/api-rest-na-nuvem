@@ -115,7 +115,7 @@ A documentação completa da API está disponível através do Swagger UI:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/mauriciogonrails/api-rest.git
+   git clone https://github.com/melissavalentindev/api-rest-na-nuvem-main
    cd api-rest
    ```
 

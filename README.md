@@ -1,13 +1,5 @@
 # 🚀 API REST | Spring Boot 3, Java 17 & Railway
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em%20Produção-success)
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-green)
-![Railway](https://img.shields.io/badge/Deploy-Railway-blueviolet)
-![Licença](https://img.shields.io/badge/Licença-MIT-blue)
-
-## 📊 Sobre o Projeto
-
 Esta API REST foi desenvolvida com Spring Boot 3 e Java 17, seguindo princípios de arquitetura limpa e boas práticas de desenvolvimento. A aplicação está hospedada na plataforma Railway, oferecendo alta disponibilidade e escalabilidade para aplicações em produção.
 
 ## 🌟 Características

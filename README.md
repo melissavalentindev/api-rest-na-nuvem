@@ -165,10 +165,10 @@ O projeto inclui testes unitários e de integração:
 ./gradlew test
 
 # Executando apenas testes unitários
-./gradlew test --tests "com.github.mauriciogonrails.*.unit.*"
+./gradlew test --tests "com.github.melissavalentindev.*.unit.*"
 
 # Executando apenas testes de integração
-./gradlew test --tests "com.github.mauriciogonrails.*.integration.*"
+./gradlew test --tests "com.github.melissavalentindev.*.integration.*"
 ```
 
 ## 📈 Monitoramento
@@ -200,11 +200,6 @@ Contribuições são bem-vindas! Para contribuir:
 ## 📜 Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
-## 📞 Contato
-
-Para questões, sugestões ou problemas, entre em contato:
-- GitHub: [mauriciogonrails](https://github.com/mauriciogonrails)
 
 ---
 

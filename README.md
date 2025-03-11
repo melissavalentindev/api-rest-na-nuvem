@@ -192,7 +192,3 @@ Contribuições são bem-vindas! Para contribuir:
 ## 📜 Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-Desenvolvido com ☕ por [Mauricio Gonçalves](https://github.com/mauriciogonrails)

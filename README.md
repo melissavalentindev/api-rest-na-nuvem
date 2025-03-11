@@ -2,7 +2,7 @@
 
 Esta API REST foi desenvolvida com Spring Boot 3 e Java 17, seguindo princípios de arquitetura limpa e boas práticas de desenvolvimento. A aplicação está hospedada na plataforma Railway, oferecendo alta disponibilidade e escalabilidade para aplicações em produção.
 
-## 🌟 Características
+##  Características
 
 - **Arquitetura RESTful**: Implementação completa seguindo os princípios REST
 - **Documentação Swagger**: API completamente documentada e interativa
@@ -12,7 +12,7 @@ Esta API REST foi desenvolvida com Spring Boot 3 e Java 17, seguindo princípios
 - **Validação de Dados**: Implementação de validações robustas com Bean Validation
 - **Tratamento de Exceções**: Sistema global de tratamento de exceções
 
-## 🔧 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Backend**:
   - Java 17
@@ -32,7 +32,7 @@ Esta API REST foi desenvolvida com Spring Boot 3 e Java 17, seguindo princípios
   - GitHub Actions (CI/CD)
   - Docker
 
-## 📦 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 api-rest/
@@ -71,7 +71,7 @@ api-rest/
 └── LICENSE
 ```
 
-## 🔌 Endpoints da API
+##  Endpoints da API
 
 | Método | URL | Descrição | Autenticação |
 |--------|-----|-----------|--------------|
@@ -87,14 +87,14 @@ api-rest/
 | PUT    | /api/resources/{id} | Atualizar recurso | Sim |
 | DELETE | /api/resources/{id} | Remover recurso | Sim |
 
-## 📝 Documentação
+##  Documentação
 
 A documentação completa da API está disponível através do Swagger UI:
 
 - **Produção**: `https://api.railway.app/swagger-ui.html`
 - **Desenvolvimento**: `http://localhost:8080/swagger-ui.html`
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 
@@ -148,7 +148,7 @@ docker run -p 8080:8080 -e "SPRING_PROFILES_ACTIVE=dev" api-rest
    - `JWT_SECRET=seu_segredo_jwt`
    - `DATABASE_URL` (preenchido automaticamente pelo Railway)
 
-## 🧪 Testes
+##  Testes
 
 O projeto inclui testes unitários e de integração:
 
@@ -163,7 +163,7 @@ O projeto inclui testes unitários e de integração:
 ./gradlew test --tests "com.github.melissavalentindev.*.integration.*"
 ```
 
-## 📈 Monitoramento
+##  Monitoramento
 
 Endpoints de monitoramento via Spring Actuator:
 
@@ -171,7 +171,7 @@ Endpoints de monitoramento via Spring Actuator:
 - `/actuator/info` - Informações sobre a aplicação
 - `/actuator/metrics` - Métricas detalhadas
 
-## 🔒 Segurança
+##  Segurança
 
 A API utiliza autenticação JWT (JSON Web Token):
 
@@ -179,7 +179,7 @@ A API utiliza autenticação JWT (JSON Web Token):
 2. Copie o token JWT retornado
 3. Inclua o token no cabeçalho Authorization como `Bearer {seu_token}` para requisições subsequentes
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Contribuições são bem-vindas! Para contribuir:
 
@@ -189,6 +189,6 @@ Contribuições são bem-vindas! Para contribuir:
 4. Envie para o GitHub (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## 📜 Licença
+##  Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
